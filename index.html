@@ -1,38 +1,80 @@
 
+
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-<title>W3.CSS Template</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<style>
-body,h1 {font-family: "Raleway", sans-serif}
-body, html {height: 100%}
-.bgimg {
-  background-image: url('/ejerciciosconplantillas/imagenes/clima-tropical-playa-e1559929568421.jpg');
-  min-height: 100%;
-  background-position: center;
-  background-size: cover;
-}
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Islas del Caribe y del Pacífico</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(to bottom, #f0f8ff, #e6f2ff);
+      color: #333;
+    }
+    header {
+      background: #0088cc;
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 1em;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 2em;
+    }
+    footer {
+      background: #004466;
+      color: white;
+      text-align: center;
+      padding: 1em;
+      margin-top: 2em;
+    }
+    .destacado {
+      background-color: #ddf7ff;
+      padding: 1em;
+      border-radius: 8px;
+      margin-top: 2em;
+    }
+    ul li::before {
+      content: "✅ ";
+    }
+  </style>
 </head>
 <body>
-
-<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
-  <div class="w3-display-topleft w3-padding-large w3-xlarge">
-
-  </div>
-  <div class="w3-display-middle">
-    <h1 class="w3-jumbo w3-animate-top">PAISES MARAVILLOSOS</h1>
-    <hr class="w3-border-grey" style="margin:auto;width:40%">
-    <p class="w3-large w3-center">TE ENCANTARÁ</p>
-  </div>
-  <div class="w3-display-bottomleft w3-padding-large">
-    Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
-  </div>
-</div>
-
+  <header>
+    <h1>🌴 Islas del Caribe y del Pacífico 🏝️</h1>
+    <nav>
+      <a href="caribe.html">Caribe</a>
+      <a href="pacifico.html">Pacífico</a>
+      <a href="comparacion.html">Comparación</a>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Explora paraísos naturales</h2>
+      <p>Las islas del Caribe y del Pacífico ofrecen paisajes increíbles, culturas únicas y biodiversidad impresionante.</p>
+    </section>
+    <section class="destacado">
+      <h3>¿Qué encontrarás en esta web?</h3>
+      <ul>
+        <li>🌊 Información clara y sencilla</li>
+        <li>📸 Imágenes reales de cada región</li>
+        <li>🧭 Comparaciones curiosas</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>Trabajo final de 4º ESO</p>
+    <a href="https://html5up.net/solid-state" target="_blank">plantilla</a>
+  </footer>
 </body>
 </html>
